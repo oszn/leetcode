@@ -188,6 +188,36 @@ namespace lt839 {
 		return f.area;
 	}
 }
+namespace lt888 {
+	int sumc(vector<int>&arr) {
+		int ans = 0;
+		for (int i = 0; i < arr.size(); i++) {
+			ans += arr[i];
+		}
+		return ans;
+	}
+	vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
+		int suma = sumc(A);
+		int sumb = sumc(B);
+		int c = sumb - suma;
+		c = c / 2;
+		map<int, int> cmap;
+		for (int i = 0; i < A.size(); i++) {
+			cmap[A[i] + c] = A[i];
+		}
+		vector<int> ans;
+		for (int i = 0; i < B.size(); i++) {
+			if (cmap.count(B[i]) == 1)
+			{
+
+				ans.push_back(cmap[B[i]]);
+				ans.push_back(B[i]);
+				return ans;
+			}
+		}
+		return ans;
+	}
+}
 int main() {
 
 }

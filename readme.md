@@ -2,6 +2,7 @@
 <font color="red">所有的代码在leetcode文件夹里面，如leetcode 33题，则是namespace lt33命名</font>
 
 ## 1631. 最小体力消耗路径
+
 [link](https://leetcode-cn.com/problems/path-with-minimum-effort/)
 
 感觉这个题目我一看到第一反应应该是dp，后来建立不出来dp，就想搜索，搜索一想代价就很大，会走一些没用的路肯定不好过。
@@ -11,6 +12,7 @@
 a*的核心思想在于启发式函数h(x)+g(x)的过程。总是朝着当前最优的地方寻址。这个题目就是h(x)=0的情况，所以就是一个最小路径求解算法。
 
 **并查集**
+
 这个题目感觉好难啊，没想到，看了题解之后才能做，其实你看了之后发现这个题目核心2点。
 
 1. 对所有的边进行排序
@@ -18,7 +20,7 @@ a*的核心思想在于启发式函数h(x)+g(x)的过程。总是朝着当前最
 
 今天学习他代码发现一个好东西，就是多一个size，那样的话，不需要递归回去修改，只需要把一个人的root进行修改即可。
 
-778. 水位上升的泳池中游泳
+## 778. 水位上升的泳池中游泳
 [link](https://leetcode-cn.com/problems/swim-in-rising-water/)
 
 这个题目和昨天的题目类似，昨天是求差值，而今天得题目就是max就行了。
@@ -35,6 +37,7 @@ a*的核心思想在于启发式函数h(x)+g(x)的过程。总是朝着当前最
 然后就是检查连通性。
 
 ## 839. 相似字符串组
+
 [link](https://leetcode-cn.com/problems/similar-string-groups/)
 
 我开始题目意思理解错了，所以认为直接排序即可。
@@ -49,3 +52,39 @@ a*的核心思想在于启发式函数h(x)+g(x)的过程。总是朝着当前最
 **hash**
 2个人储存的糖果如果有差别，那么suma和sumb。那么差值c=suma-sumb。而我们要做的是把c=c/2也就是各自的差值补齐，那么c+sumb=suma。
 
+## 424. 替换后的最长重复字符
+
+[link](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
+
+![](img/2.png)
+
+**双指针**
+
+今天又是看题解的一天...
+
+这里维护的窗口内字符重复最大的作为maxcount。如果i-left+1比maxcount+k数目少一点。那就说明可以往右边移动，如果此时已经大于了，那就说明是已经不行了，要开始往left++的移动。直到找到下一个值继续往右移动。
+
+```c++
+int characterReplacement(string s, int k) {
+        vector<int> num(26);
+        int n = s.length();
+        int maxn = 0;
+        int left = 0, right = 0;
+        while (right < n) {
+            num[s[right] - 'A']++;
+            maxn = max(maxn, num[s[right] - 'A']);
+            if (right - left + 1 - maxn > k) {
+                num[s[left] - 'A']--;
+                left++;
+            }
+            right++;
+        }
+        return right - left;
+    }
+
+作者：LeetCode-Solution
+链接：https://leetcode-cn.com/problems/longest-repeating-character-replacement/solution/ti-huan-hou-de-zui-chang-zhong-fu-zi-fu-n6aza/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处
+```
+官方题解更加难懂，他这里的right-left为啥最大如果没仔细读根本读不懂，他这里的left最差的情况下是和right一起加，所以一旦锁定了一个最大，那么他后面left和right只会一起增加，除非另外一个maxcount出现。也就是right-left+1-maxn<=k的情况出现，那说明maxn很大，可以继续填充k。
