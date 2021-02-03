@@ -1,0 +1,11 @@
+﻿  main.cpp
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(160): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(181): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(209): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(340): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(357): warning C4018: “<”: 有符号/无符号不匹配
+  recordLeetCode.vcxproj -> C:\Users\liuya\source\repos\recordLeetCode\Debug\recordLeetCode.exe
