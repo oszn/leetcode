@@ -243,14 +243,14 @@ namespace lt480 {
 		int maxlen;
 		int num;
 
-		void init(vector<int> tmpvec,int _num) {
+		void init(vector<int> tmpvec, int _num) {
 			num = _num;
 			minlen = (num + 1) / 2;
-			maxlen = num-minlen;
-			for (int i = 0; i < (num+1) / 2; i++) {
+			maxlen = num - minlen;
+			for (int i = 0; i < (num + 1) / 2; i++) {
 				minheap.push_back(tmpvec[i]);
 			}
-			for (int i = (num+1) / 2; i < num; i++) {
+			for (int i = (num + 1) / 2; i < num; i++) {
 				maxheap.push_back(tmpvec[i]);
 			}
 		}
@@ -258,7 +258,7 @@ namespace lt480 {
 		int with(int cx) {
 			int maxmin = minheap[minheap.size() - 1];//最小里面最大的
 			int minmax = maxheap[0];//最大里面最小的。
-			if (cx <=maxmin) {
+			if (cx <= maxmin) {
 				return 0;
 			}
 			else if (cx > maxmin) {
@@ -267,15 +267,15 @@ namespace lt480 {
 			return 1;
 		}
 
-		int getindex(vector<int> vec,int input) {
+		int getindex(vector<int> vec, int input) {
 			int left = 0, right = vec.size();
 			int mid = (left + right) / 2;
 			while (left < right) {
 				if (vec[mid] < input) {
 					left = mid + 1;
-					
+
 				}
-				else if(vec[mid] > input) {
+				else if (vec[mid] > input) {
 					right = mid - 1;
 				}
 				else  return mid;
@@ -287,7 +287,7 @@ namespace lt480 {
 		void insert(int val) {
 			int a = with(val);
 			if (a == 0) {
-				int index = getindex(minheap,val);
+				int index = getindex(minheap, val);
 				if (minheap[index] < val)
 					index++;
 				minheap.insert(minheap.begin() + index, val);
@@ -302,11 +302,11 @@ namespace lt480 {
 			int minmax = maxheap[0];//最大里面最小的。
 			if (input <= maxmin) {
 				int index = getindex(minheap, input);
-				minheap.erase(minheap.begin()+index);
+				minheap.erase(minheap.begin() + index);
 			}
 			else {
 				int index = getindex(maxheap, input);
-				maxheap.erase(maxheap.begin()+index);
+				maxheap.erase(maxheap.begin() + index);
 			}
 		}
 		void makebalance() {
@@ -322,7 +322,7 @@ namespace lt480 {
 			}
 			else {
 				for (int i = 0; i < -distance; i++) {
-					maxheap.insert(maxheap.begin(),minheap[minheap.size() - 1]);
+					maxheap.insert(maxheap.begin(), minheap[minheap.size() - 1]);
 					minheap.pop_back();
 				}
 			}
@@ -333,7 +333,7 @@ namespace lt480 {
 			else
 				return minheap[minheap.size() - 1];
 		}
-		int find(int input,int output) {
+		double find(int input, int output) {
 			insert(output);
 			erase(input);
 			makebalance();
@@ -347,18 +347,41 @@ namespace lt480 {
 			vec.push_back(nums[i]);
 		}
 		sort(vec.begin(), vec.end());
-		
+		if (k == 1) {
+
+			for (int i = 0; i < nums.size(); i++) {
+				ans.push_back(nums[i]);
+			}
+			return ans;
+		}
 		if (k % 2 == 0) {
-			ans .push_back( (double(vec[k / 2]) +(double)vec[(k-1) / 2]) / 2);
+			ans.push_back((double(vec[k / 2]) + (double)vec[(k - 1) / 2]) / 2);
 		}
 		else ans.push_back(vec[k / 2]);
+
 		movewindom m;
 		m.init(vec, k);
 		for (int i = k; i < nums.size(); i++) {
-			double x= m.find(nums[i - k], nums[i]);
-			ans.push_back(x); 
+			double x = m.find(nums[i - k], nums[i]);
+			ans.push_back(x);
 		}
 		return ans;
+	}
+	namespace lt643{
+		double findMaxAverage(vector<int>& nums, int k) {
+			int ans = 0;
+			int maxnum = 0;
+			for (int i = 0; i < k; i++) {
+				ans += nums[i];
+			}
+			maxnum = ans;
+			for (int i = k; i < nums.size(); i++) {
+				ans -= nums[i - k];
+				ans += nums[i];
+				maxnum = max(ans, maxnum);
+			}
+			return double(maxnum) / k;
+		}
 	}
 }
 int main() {
