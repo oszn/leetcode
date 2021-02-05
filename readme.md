@@ -100,3 +100,8 @@ int characterReplacement(string s, int k) {
 ![](img/643.png)
 
 滑动窗口，头减去尾部加上，打卡下班。明天见
+
+## 1208. 尽可能使字符串相等
+![](img/1208.png)
+
+这个题目的意思读懂我花了好久，我以为是要匹配字串然后在比较能否转化，它的意思是直接转化连续的字串，这样一个双指针，如果够right就往后面跑之前先maxcos-spend[right]，不够left就往后面跑之前先Maxcos-spend[left]，如果left==right所以2个一起跑路。其实没必要spend数组，我只是懒得管理代码就这么写了。
