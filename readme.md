@@ -105,3 +105,31 @@ int characterReplacement(string s, int k) {
 ![](img/1208.png)
 
 这个题目的意思读懂我花了好久，我以为是要匹配字串然后在比较能否转化，它的意思是直接转化连续的字串，这样一个双指针，如果够right就往后面跑之前先maxcos-spend[right]，不够left就往后面跑之前先Maxcos-spend[left]，如果left==right所以2个一起跑路。其实没必要spend数组，我只是懒得管理代码就这么写了。
+
+
+## 1423. 可获得的最大点数
+![](img/1423.png)
+
+**滑动窗口**
+
+这个题目，一开始的想法是双指针来维护，这有点贪心的原则，但是推理的时候没办法保证全局最优，只能保证局部最优，所以采用移动窗口，这里少的那边补上，维护一个偏移量即可。
+
+```c++
+//他很短我就补上把
+    int maxScore(vector<int>& cardPoints, int k) {
+        int ans=0;
+        for(int i=0;i<k;i++){
+            ans+=cardPoints[i];
+        }
+        int x=cardPoints.size();
+        int maxnum=ans;
+        int offset=-1;
+        do{
+            ans-=cardPoints[k+offset];
+            ans+=cardPoints[x+offset];
+            maxnum=max(maxnum,ans);
+            offset--;
+        }while(offset+k>=0);
+        return maxnum;
+    }
+```
