@@ -1,14 +1,25 @@
 ﻿  main.cpp
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(160): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(181): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(194): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(209): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(352): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(364): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(378): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(390): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\liuya\source\repos\recordleetcode\recordleetcode\main.cpp(395): warning C4018: “<”: 有符号/无符号不匹配
-  recordLeetCode.vcxproj -> C:\Users\liuya\source\repos\recordLeetCode\Debug\recordLeetCode.exe
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(160,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(181,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(182,26): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(194,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(205,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(209,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(226,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(352,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(364,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(378,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(390,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(395,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(437,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(462,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(504,21): warning C4018: “<=”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(515,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(550,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(551,30): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(561,31): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(585,16): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(586,30): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(595,31): warning C4018: “<”: 有符号/无符号不匹配
+  recordLeetCode.vcxproj -> E:\语言\C++\recordLeetCode\Debug\recordLeetCode.exe
