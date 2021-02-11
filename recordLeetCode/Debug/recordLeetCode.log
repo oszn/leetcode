@@ -20,4 +20,6 @@ E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(550,16): warning C4018: “
 E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(552,23): warning C4018: “>”: 有符号/无符号不匹配
 E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(579,21): warning C4018: “<”: 有符号/无符号不匹配
 E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(594,29): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(626,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\语言\C++\recordLeetCode\recordLeetCode\main.cpp(646,20): warning C4018: “<”: 有符号/无符号不匹配
   recordLeetCode.vcxproj -> E:\语言\C++\recordLeetCode\Debug\recordLeetCode.exe
