@@ -62,3 +62,7 @@
   - [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
   - [1260. 二维网格迁移](https://leetcode.cn/problems/shift-2d-grid/)
 
++ [day20](./2022/7/21.md)
+  - [814. 二叉树剪枝](https://leetcode.cn/problems/binary-tree-pruning/)
+  - [463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/)
+
