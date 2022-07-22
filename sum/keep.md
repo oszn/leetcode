@@ -2,9 +2,13 @@
 
 # 板子
 
-
+[2叉树](./template/2-tree.md)
 
 # 刷题记录
+
+## 数组类型
+
+
 
 + [day1](./2022/6/28.md)
   - [46. 全排列](https://leetcode.cn/problems/permutations/)
@@ -61,8 +65,14 @@
 + [day19](./2022/7/20.md)
   - [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
   - [1260. 二维网格迁移](https://leetcode.cn/problems/shift-2d-grid/)
-
 + [day20](./2022/7/21.md)
   - [814. 二叉树剪枝](https://leetcode.cn/problems/binary-tree-pruning/)
   - [463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/)
+
+## 二叉树
+
++ [day21](./2022/7/22.md)
+  - [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
+  - [116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
+  - [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)
 
