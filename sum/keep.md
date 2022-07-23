@@ -69,10 +69,13 @@
   - [814. 二叉树剪枝](https://leetcode.cn/problems/binary-tree-pruning/)
   - [463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/)
 
-## 二叉树
+## 二叉树   
 
 + [day21](./2022/7/22.md)
   - [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
   - [116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
   - [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)
 
++ [day22](./2022/7/23.md)
+  - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+  - [654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)
