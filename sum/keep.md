@@ -75,10 +75,15 @@
   - [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/)
   - [116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
   - [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)
-
 + [day22](./2022/7/23.md)
   - [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
   - [654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)
   - [106. 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
   - [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
++ [day23](./2022/7/25.md)
+  - [297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
+  - [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/)
 
++ [day24](./2022/7/28.md)
+  - [493. 翻转对](https://leetcode.cn/problems/reverse-pairs/)
+  - [327. 区间和的个数](https://leetcode.cn/problems/count-of-range-sum/)
