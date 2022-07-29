@@ -83,7 +83,10 @@
 + [day23](./2022/7/25.md)
   - [297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
   - [652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/)
-
 + [day24](./2022/7/28.md)
   - [493. 翻转对](https://leetcode.cn/problems/reverse-pairs/)
   - [327. 区间和的个数](https://leetcode.cn/problems/count-of-range-sum/)
+
++ [day25](./2022/7/29)
+  - [493. 翻转对](https://leetcode.cn/problems/reverse-pairs/)
+  - [1038. 从二叉搜索树到更大和树](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)
