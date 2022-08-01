@@ -6,6 +6,15 @@
 
 # 刷题记录
 
+| plan         | date      | prefix     | except                 |
+| ------------ | --------- | ---------- | ---------------------- |
+| 数组类型     | 6/28~7/21 |            |                        |
+| 树类型       | 7/22~8/1  | 非递归没写 |                        |
+| 图类型       | 8/2~8/10  |            |                        |
+| 数据结构专题 | 8/12~8/18 |            | 红黑树/线段树/树状数组 |
+
+
+
 ## 数组类型
 
 
@@ -89,6 +98,16 @@
 + [day25](./2022/7/29)
   - [493. 翻转对](https://leetcode.cn/problems/reverse-pairs/)
   - [1038. 从二叉搜索树到更大和树](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/)
-
 + [day 26](./2022/7/30)
   - [700. 二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
++ [day27](./2022/7/31.md)
+  - [700. 二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
+  - [701. 二叉搜索树中的插入操作](https://leetcode.cn/problems/insert-into-a-binary-search-tree/)
+  - [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/)
+  - [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
+  - [95. 不同的二叉搜索树 II](https://leetcode.cn/problems/unique-binary-search-trees-ii/)
+  - [旅游最短路径](https://pintia.cn/problem-sets/1532176225467338752/problems/1548536271940087810) 
+
++ [day28](./2022/8/1.md)
+  - [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
+  - [235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
