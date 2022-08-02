@@ -111,3 +111,15 @@
 + [day28](./2022/8/1.md)
   - [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
   - [235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+## 图
+
++ [day29](./2022/8/2.md)
+
+  - [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
+
+  - [207. 课程表](https://leetcode.cn/problems/course-schedule/)
+
+  - [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
+
+    
