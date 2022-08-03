@@ -117,9 +117,10 @@
 + [day29](./2022/8/2.md)
 
   - [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
-
   - [207. 课程表](https://leetcode.cn/problems/course-schedule/)
-
   - [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
 
-    
++ [day30](./2022/8/3.md)
+  + [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
+  + [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)
+  + [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
