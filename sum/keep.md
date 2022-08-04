@@ -119,8 +119,13 @@
   - [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
   - [207. 课程表](https://leetcode.cn/problems/course-schedule/)
   - [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
-
 + [day30](./2022/8/3.md)
   + [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
   + [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)
   + [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
+
++ [day31](./2022/8/4)
+  + [1584. 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)
+  + [1514. 概率最大的路径](https://leetcode.cn/problems/path-with-maximum-probability/)
+  + [1631. 最小体力消耗路径](https://leetcode.cn/problems/path-with-minimum-effort/)
+  + [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
