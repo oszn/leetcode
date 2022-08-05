@@ -6,12 +6,15 @@
 
 # 刷题记录
 
-| plan         | date      | prefix     | except                 |
-| ------------ | --------- | ---------- | ---------------------- |
-| 数组类型     | 6/28~7/21 |            |                        |
-| 树类型       | 7/22~8/1  | 非递归没写 |                        |
-| 图类型       | 8/2~8/10  |            |                        |
-| 数据结构专题 | 8/12~8/18 |            | 红黑树/线段树/树状数组 |
+| plan         | date      | prefix                       | except                 |
+| ------------ | --------- | ---------------------------- | ---------------------- |
+| 数组类型     | 6/28~7/21 |                              |                        |
+| 树类型       | 7/22~8/1  | 非递归没写                   |                        |
+| 图类型       | 8/2~8/10  | 计划提前完成，图内容并不多。 |                        |
+| 链表类型     | 8/5~8/10  |                              |                        |
+| 数据结构专题 | 8/12~8/18 |                              | 红黑树/线段树/树状数组 |
+
+
 
 
 
@@ -123,9 +126,16 @@
   + [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
   + [886. 可能的二分法](https://leetcode.cn/problems/possible-bipartition/)
   + [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
-
 + [day31](./2022/8/4)
   + [1584. 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)
   + [1514. 概率最大的路径](https://leetcode.cn/problems/path-with-maximum-probability/)
   + [1631. 最小体力消耗路径](https://leetcode.cn/problems/path-with-minimum-effort/)
   + [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/)
+
+## 链表
+
++ [day32](./2022/8/5.md)
+  - [141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
+  - [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
+  - [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
+  - [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
