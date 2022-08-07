@@ -142,3 +142,7 @@
 
 + [day33](./2022/8/6.md)
   + [23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
+
++ [day34](./2022/8/7.md)
+  + [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+  + [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
