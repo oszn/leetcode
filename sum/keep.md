@@ -1,5 +1,13 @@
 <center color="green">record</center>
 
+感觉[xhf](https://github.com/Xhofe/daily-problem-of-leetcode/)的页面很好看偷一手
+
+![ranking](https://leetcode-badge.haozibi.dev/v1cn/ranking/oszn.svg?logo=leetcode&color=4299E1)
+![solved](https://leetcode-badge.haozibi.dev/v1cn/solved/oszn.svg)
+![accepted-rate](https://leetcode-badge.haozibi.dev/v1cn/accepted-rate/oszn.svg?color=9F7AEA)
+
+![records](https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/oszn.svg)
+
 # 板子
 
 [2叉树](./template/2-tree.md)
