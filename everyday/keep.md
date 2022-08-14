@@ -5,3 +5,6 @@
 [761. 特殊的二进制序列](./2022/8/8.md)    [@link](https://leetcode.cn/problems/special-binary-string/)
 
 [1413. 逐步求和得到正数的最小值](./2022/8/9.md)  [@link](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/)
+
+[1282. 用户分组](.2022/8/12.md)   [@link](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) 
+
