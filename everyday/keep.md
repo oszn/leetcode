@@ -39,4 +39,6 @@
   
   - [8-30](./2022/8/30.md)   [998. 最大二叉树 II](https://leetcode.cn/problems/maximum-binary-tree-ii/)
   
-    
+  - [8-31](./2022/8/31.md)  [946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences/)
++ [2022-9](./2022/9/1.md)
+  - [9-1](./2022/9/1.md) [1475. 商品折扣后的最终价格](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/)
